@@ -1,0 +1,62 @@
+section {
+    padding: 130px 0;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 1.15;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgba(223, 223, 223, 0.8);
+    margin-top: 38px;
+}
+
+.btn {
+    padding: 21px 34px;
+    background-color: $blue;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    border: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transition: .3s ease all;
+    width: fit-content;
+    &:hover {
+        background-color: $darkBlue;
+        transition: .3s ease all;
+    }
+    &_n-outline {
+        background-color: transparent;
+        &:hover {
+            background-color: transparent;
+            color: $orange;
+        }        
+    }
+}
+
+.tagline {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $blue;
+    height: 32px;
+    img {
+        margin-right: 8px;
+        height: 100%;
+    }
+}
+
+.underline {
+    position: absolute;
+}

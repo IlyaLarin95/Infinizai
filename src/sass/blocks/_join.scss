@@ -1,0 +1,49 @@
+.join {
+    background: url('../img/img-bg-join.png') no-repeat 50%/cover;
+    &__main {
+        max-width: 847px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 1.1;
+        text-align: center;
+        color: #141820;
+        span {
+            position: relative;
+            display: inline-block;
+        }
+        .underline {
+            bottom: -15px;
+            left: 15px;
+            width: 100%;
+        }
+    }
+    &__subtitle {
+        font-weight: normal;
+        margin-top: 51px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.55;
+        text-align: center;
+        color: #555555;
+    }
+    &__form {
+        margin-top: 44px;
+        display: flex;
+        justify-content: center;
+    }
+    &__input {
+        padding: 26px 13px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        color: #555555;
+        border: 1px solid #CCCCCC;
+        outline: none;
+        &:focus {
+            border: 1px solid $blue;
+        }
+    }
+}

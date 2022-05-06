@@ -1,0 +1,93 @@
+.footer {
+    background: #222730;
+    padding: 130px 0 60px 0;
+    &__main {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__left {
+        max-width: 294px;
+    }
+    &__descr {
+        margin-top: 35px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        color: #999999;
+    }
+    &__middle {
+        width: 33%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 168px;
+    }
+    &__header {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    &__list {
+        margin-top: 24px;
+        &-link {
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 38px;
+            text-transform: capitalize;
+            color: #999999;
+            transition: .3s ease all;
+            &:hover {
+                color: $orange;
+                transition: .3s ease all;
+            }
+        }
+    }
+    &__right {
+        max-width: 240px;
+    }
+    &__socials {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+    }
+    &__social-link {
+        background: #383D45;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        path {
+            transition: .3s ease all;
+        }
+        &:hover {
+            path {
+                stroke: $orange;
+                transition: .3s ease all;
+            }
+        }
+    }
+    &__social-link:not(:last-child) {
+        margin-right: 16px;
+    }
+    &__separator {
+        margin-top: 47px;
+        width: 100%;
+        background: #3E3E3E;
+        height: 1px;
+    }
+    &__copyright {
+        margin-top: 48px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #898989;
+    }
+}

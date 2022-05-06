@@ -1,0 +1,34 @@
+.cloud-gaming {
+    background: #000000;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info {
+        width: 55%;
+    }
+    &__title {
+        margin-top: 12px;
+    }
+    &__subtitle {
+        margin-top: 38px;
+    }
+    &__btn {
+        margin-top: 54px;
+    }
+    &__media {
+        width: 37%;
+        position: relative;
+        &-img {
+            width: 100%;
+        }
+        &-icon {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            cursor: pointer;
+        }
+    }
+}

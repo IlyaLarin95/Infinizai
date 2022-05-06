@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'blocks/global';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/hamburger';
+@import 'blocks/sponsors';
+@import 'blocks/shop';
+@import 'blocks/cloud-gaming';
+@import 'blocks/customize';
+@import 'blocks/advantages';
+@import 'blocks/news';
+@import 'blocks/join';
+@import 'blocks/footer';
+@import 'blocks/changeCursor';
+
+
+* {
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    cursor: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+@import 'base/media';
